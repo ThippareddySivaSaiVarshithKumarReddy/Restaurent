@@ -1,0 +1,661 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+#nav {
+    color: #000;
+    opacity: 0.85;
+}
+
+.home-container {
+    width: 100%;
+    height: 100%;
+}
+
+.food-dawat-logo {
+    width: 60%;
+}
+
+#top-home {
+    padding: 20px;
+    width: 100%;
+
+}
+
+
+.fab {
+    font-size: 20px;
+}
+
+.dawat-home-slide-1 {
+    background-image: url("https://res.cloudinary.com/dx3vswge0/image/upload/v1693462874/promo_slide_3_kckamo.jpg");
+    width: 100%;
+    background-size: cover;
+}
+
+.dawat-home-slide-2 {
+    background-image: url("https://res.cloudinary.com/dx3vswge0/image/upload/v1693462862/promo_slide_2_jq8s02.jpg");
+    width: 100%;
+    background-size: cover;
+}
+
+.dawat-home-slide-3 {
+    background-image: url("https://res.cloudinary.com/dx3vswge0/image/upload/v1693463192/promo_slide_1_zyc9bb.jpg");
+    width: 100%;
+    background-size: cover;
+}
+
+.carousel-item {
+    height: 65vh;
+    min-height: 500px;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+.carousel-caption {
+    bottom: 150px;
+}
+
+.caption-2 {
+    bottom: 150px;
+}
+
+
+.carousel-indicators li {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    margin-bottom: 20px;
+    ;
+}
+
+.carousel-indicators li:hover {
+    background-color: #3c3f42;
+}
+
+.carousel-caption h1 {
+    font-size: 80px;
+    color: #fff;
+    font-family: "Brush Script Mt";
+}
+
+.carousel-caption p {
+    font-size: 40px;
+    color: #fff;
+    font-family: "Georgia";
+    margin-top: 0px;
+    font-weight: 500;
+}
+
+.carousel-caption button {
+    background-color: transparent;
+    font-family: "Roboto";
+    font-size: 20px;
+    color: #fff;
+    border: 2px solid #fff;
+    height: 40px;
+    width: 225px;
+}
+
+.carousel-caption button:hover {
+    background-color: #eb2842;
+    font-family: "Roboto";
+    font-size: 20px;
+    color: #fff;
+    border: 2px solid #eb2842;
+    height: 40px;
+    width: 225px;
+}
+
+.caption-2 h1 {
+    font-size: 40px;
+    color: #fff;
+    font-family: "Brush Script Mt";
+}
+
+.caption-2 p {
+    font-size: 20px;
+    color: #fff;
+    font-family: "Georgia";
+    margin-top: 0px;
+    font-weight: 500;
+}
+
+.caption-2 button {
+    background-color: transparent;
+    font-family: "Roboto";
+    font-size: 14px;
+    color: #fff;
+    border: 2px solid #fff;
+    height: 30px;
+    width: 150px;
+}
+
+.caption-2 button:hover {
+    border: 2px solid #eb2842;
+    background-color: #eb2842;
+    font-family: "Roboto";
+    font-size: 14px;
+    color: #fff;
+    height: 30px;
+    width: 150px;
+}
+
+
+#navitem {
+    color: #000;
+}
+
+#navitem:hover {
+    color: #eb2842;
+}
+
+#mdnavitem {
+    color: #000;
+}
+
+#mdnavitem:hover {
+    color: #eb2842;
+}
+
+#top-button {
+    background-color: #eb2842;
+    font-family: "Roboto";
+    font-size: 20px;
+    color: #fff;
+    border: 2px solid #eb2842;
+    height: 40px;
+    width: 225px;
+}
+
+#top-button:hover {
+    cursor: progress;
+    background-color: #eb2842;
+    font-family: "Roboto";
+    font-size: 20px;
+    color: #fff;
+    border: 2px solid #eb2842;
+    height: 40px;
+    width: 225px;
+}
+
+.offer-container {
+    width: 100%;
+    height: 720px;
+    background-image: url("https://res.cloudinary.com/dx3vswge0/image/upload/v1693483573/black-stone-background-black-surface-top-view-free-space-your-text_187166-56482_j0w8nu.avif");
+
+    background-size: cover;
+    z-index: -1;
+}
+
+.offer-heading {
+    color: #f23405;
+    font-family: "Lucida Handwriting";
+    font-size: 50px;
+}
+
+.md-offer-heading {
+    color: #f23405;
+    font-family: "Lucida Handwriting";
+    font-size: 20px;
+}
+
+.carousel-image {
+    position: absolute;
+    margin-top: 10px;
+    height: 55%;
+    width: 65%;
+    z-index: 0;
+}
+
+.offer-carousel-beside-container {
+    margin-left: 80%;
+    background-color: #ffffff;
+    z-index: 1;
+    width: 40%;
+    margin-top: 10%;
+}
+
+.md-offer-carousel-beside-container {
+    margin-left: 70%;
+    background-color: #ffffff;
+    z-index: 1;
+    width: 40%;
+    margin-top: 10%;
+}
+
+.offer-carousel-beside-container h1 {
+    font-size: 25px;
+    font-family: "Roboto";
+    font-weight: 600;
+}
+
+.offer-carousel-beside-container p {
+    font-size: 14px;
+    font-family: "Roboto";
+}
+
+.offer-carousel-beside-container button {
+    background-color: transparent;
+    font-family: "Roboto";
+    font-size: 20px;
+    color: #eb2842;
+    border: 2px solid #eb2842;
+    height: 40px;
+    width: 225px;
+}
+
+.md-offer-carousel-beside-container h1 {
+    font-size: 9px;
+    font-family: "Roboto";
+    font-weight: 600;
+}
+
+.md-offer-carousel-beside-container p {
+    font-size: 7px;
+    font-family: "Roboto";
+}
+
+.md-offer-carousel-beside-container button {
+    background-color: transparent;
+    font-family: "Roboto";
+    font-size: 9px;
+    color: #eb2842;
+    border: 2px solid #eb2842;
+    height: 20px;
+    width: 60px;
+}
+
+.dawat-aboutus-container {
+    width: 100%;
+    background-color: white;
+}
+
+.dawat-aboutus-title {
+    margin-right: auto;
+    margin-left: auto;
+    color: red;
+    font-size: 42px;
+    font-family: "Lobster";
+    font-weight: 200;
+}
+
+.dawat-aboutus-desc-start {
+    font-size: 32px;
+    font-weight: 400;
+}
+
+.md-dawat-aboutus-desc-start {
+    font-size: 22px;
+    font-weight: 400;
+}
+
+.dawat-aboutus-desc-left {
+    font-family: 'Roboto';
+    font-size: 18px;
+    color: black;
+    margin-left: 50px;
+}
+
+.md-dawat-aboutus-desc-left {
+    font-family: 'Roboto';
+    font-size: 11px;
+    color: black;
+    margin-left: 50px;
+}
+
+.dawat-aboutus-desc-right {
+    font-family: 'Roboto';
+    font-size: 18px;
+    color: black;
+    margin-right: 50px;
+    margin-left: 20px;
+    margin-top: 15px;
+}
+
+.md-dawat-aboutus-desc-right {
+    font-family: 'Roboto';
+    font-size: 11px;
+    color: black;
+    margin-right: 50px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.dawat-aboutus-sign-container {
+    background-image: url("https://res.cloudinary.com/dx3vswge0/image/upload/v1693462848/our_story_background_rw5mg4.png");
+    background-size: cover;
+    height: 200px;
+    text-align: end;
+}
+
+.dawat-aboutus-sign-img {
+    height: 100px;
+    width: 250px;
+    margin-top: 50px;
+}
+
+.md-dawat-aboutus-sign-container {
+    background-image: url("https://res.cloudinary.com/dx3vswge0/image/upload/v1693462848/our_story_background_rw5mg4.png");
+    background-size: cover;
+    height: 100px;
+    text-align: end;
+}
+
+.md-dawat-aboutus-sign-img {
+    height: 50px;
+    width: 140px;
+    margin-top: 50px;
+}
+
+.dawat-table-book-container {
+    background-image: url("https://res.cloudinary.com/dx3vswge0/image/upload/v1693462994/blog-1_ag9yuz.jpg");
+    background-size: cover;
+    margin-top: 124px;
+    text-align: center;
+}
+
+.dawat-table-book-title {
+    color: white;
+    font-size: 32px;
+    font-family: "Roboto";
+    font-weight: 600;
+}
+
+.dawat-table-book-btn {
+    background-color: white;
+    border-width: 0px;
+    color: red;
+    cursor: pointer;
+    outline: none;
+    height: 50px;
+    width: 150px;
+    margin-top: 20px;
+}
+
+.dawat-table-book-btn:hover {
+    background-color: red;
+    color: white;
+}
+
+.dawat-team-title {
+    text-align: center;
+    color: red;
+    font-size: 51px;
+    font-family: "Lobster";
+    font-weight: 200;
+    margin-bottom: 0px;
+}
+
+.red-separator-container {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.all-chefs-container {
+    width: 100%;
+}
+
+.dawat-chef-container {
+    text-align: center;
+}
+
+.dawat-chef-img-container {
+    width: 220px;
+    height: 270px;
+    background-size: cover;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.chef-img1 {
+    background-image: url("https://res.cloudinary.com/dx3vswge0/image/upload/v1693462896/team-1_sydei3.jpg")
+}
+
+.chef-img2 {
+    background-image: url("https://res.cloudinary.com/dx3vswge0/image/upload/v1693462906/team-2_wfr8hk.jpg");
+}
+
+.chef-img3 {
+    background-image: url("https://res.cloudinary.com/dx3vswge0/image/upload/v1693462917/team-3_oo5w3m.jpg");
+}
+
+.chef-img4 {
+    background-image: url("https://res.cloudinary.com/dx3vswge0/image/upload/v1693462927/team-4_nt6xoa.jpg");
+}
+
+.chef-img5 {
+    background-image: url("https://res.cloudinary.com/dx3vswge0/image/upload/v1693462939/team-5_a0cbzi.jpg");
+}
+
+.dawat-chef-img-container:hover {
+    opacity: 0.6;
+
+}
+
+.dawat-icon {
+    color: white;
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 24px;
+}
+
+.dawat-icon:hover {
+    color: red;
+    cursor: pointer;
+}
+
+
+
+.dawat-chef-name {
+    margin-top: 5px;
+    padding-left: 20px;
+    font-family: "Roboto";
+    color: black;
+    font-size: 24px;
+}
+
+.dawat-chef-desc {
+    padding-left: 20px;
+    font-family: "Roboto";
+    color: grey;
+    font-size: 16px;
+}
+
+.blog-container {
+    background-image: url("https://res.cloudinary.com/dx3vswge0/image/upload/v1693483573/black-stone-background-black-surface-top-view-free-space-your-text_187166-56482_j0w8nu.avif");
+    background-size: cover;
+    width: 100%;
+    height: 700px;
+    z-index: -1;
+
+}
+
+.blog-heading {
+    color: #f23405;
+    font-family: "Lucida Handwriting";
+    font-size: 50px;
+}
+
+.md-blog-heading {
+    color: #f23405;
+    font-family: "Lucida Handwriting";
+    font-size: 15px;
+    text-align: center;
+}
+
+.blog-image-container {
+    width: 32%;
+    padding-left: 3%;
+}
+
+
+.blog-text-container {
+    background-color: #fff;
+    padding: 5px;
+    text-align: center;
+}
+
+.blog-text-container h1 {
+    font-size: 30px;
+}
+
+.blog-text-container h1:hover {
+    color: #eb2842;
+}
+
+.horizontal-line2 {
+    border-color: red;
+    width: 20%;
+    height: 1%;
+}
+
+.md-blog-text-container {
+    background-color: #fff;
+    padding: 5px;
+    text-align: center;
+}
+
+.md-blog-text-container h1 {
+    font-size: 10px;
+}
+
+.md-blog-text-container p {
+    font-size: 6px;
+}
+
+.md-blog-text-container h6 {
+    font-size: 6px;
+}
+
+.md-blog-text-container h1:hover {
+    color: #eb2842;
+}
+
+.carousel-control-prev1 {
+    background-color: #eb2842;
+    margin-top: 20%;
+    margin-left: 1%;
+    height: 20px;
+    width: 20px;
+
+}
+
+.carousel-control-next1 {
+    background-color: #eb2842;
+    margin-top: 20%;
+    margin-right: 1%;
+    height: 20px;
+    width: 20px;
+
+}
+
+.dawat-contact-container {
+    background-image: url("https://res.cloudinary.com/dx3vswge0/image/upload/v1694252830/Untitled_uwvfdb.jpg");
+    width: 100%;
+
+    background-size: cover;
+}
+
+
+
+.dawat-contact-address {
+    color: white;
+    font-family: 'Roboto';
+    margin-top: 40px;
+}
+
+.dawat-contact-mail {
+    color: red;
+    font-family: 'Roboto';
+    margin-top: 20px;
+}
+
+.contact-hr {
+    border-color: white;
+    height: 2px;
+}
+
+.contact-desc {
+    color: red;
+    padding-right: 2%;
+    font-size: 50%;
+}
+
+.contact-copyright {
+    color: white;
+    font-size: 50%;
+}
+
+.navigator-container {
+    height: 50px;
+    width: 40px;
+    background-color: red;
+    text-align: center;
+    margin: 20px;
+}
+
+.arrow-white {
+    color: white;
+    margin-top: 17px;
+}
+
+.item-image {
+    height: 80px;
+    width: 80px;
+    border: 6px solid grey;
+    border-radius: 40px;
+    margin-right: 5px;
+}
+
+.ingredients {
+    width: 130px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.ingredients p {
+    font-size: 9px;
+}
+
+.item-name {
+    font-size: 16px;
+}
+
+.item-amount {
+    font-size: 14px;
+    color: red;
+}
+
+.menu-hr {
+    height: 2px;
+    border-color: black;
+}
+
+
+
+.menu-btn-active {
+    background-color: #eb2842;
+    color: white;
+    height: 40px;
+    width: 150px;
+}
+
+.menu-btn-inactive {
+    height: 40px;
+    width: 150px;
+    background-color: transparent;
+    border: 1px solid black;
+    color: black;
+}
+
+.dawat-menus-container {
+    width: 100%;
+}
+
+.items-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.menu-item:hover {
+    cursor: move;
+}

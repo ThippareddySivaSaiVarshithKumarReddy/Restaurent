@@ -1,0 +1,1107 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/20c5629a29.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+</head>
+
+<body>
+    <div id="home-sectionmd" class="home-container d-none d-lg-block">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 d-flex flex-row fixed-bottom mt-2 text-dark bg-white" id="top-home">
+                    <div class="d-flex flex-row justify-content-start col-4 ml-2">
+                        <i class="far fa-envelope mt-1 mr-1"></i>
+                        <p>Email:Info@Restaurent.Com</p>
+                    </div>
+                    <div class="d-flex flex-row col-3">
+                        <i class="fas fa-phone-alt mt-1 mr-1"></i>
+                        <p>Telephone: +1 800 234 5678</p>
+                    </div>
+                    <div class="d-flex flex-row justify-content-end col-3">
+                        <i class="fab fa-facebook-f m-1"></i>
+                        <i class="fab fa-twitter m-1 "></i>
+                        <i class="fab fa-skype m-1"></i>
+                        <i class="fas fa-basketball-ball pt-1 m-1"></i>
+                        <i class="fas fa-wifi pt-1 m-1"></i>
+                        <div class="col-2">
+                            <button id="top-button">BOOK A TABLE</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <nav class="col-12 nav-bar navbar navbar-expand-lg navbar-light fixed-top d-flex flex-column text-dark bg-white" id="nav">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <img src="https://res.cloudinary.com/dx3vswge0/image/upload/v1693463095/main_logo_black_mhkmog.png" class="" />
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#home-sectionmd" id="navitem">HOME <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#aboutus-section" id="navitem">ABOUT US</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#offer-section" id="navitem">OFFER</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#menus-section" id="navitem">MENU</a>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#team-section" id="navitem">TEAM<span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#blog-section" id="navitem">BLOG</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#gallery-section" id="navitem">GALLERY</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact-section" id="navitem">CONTACT</a>
+                        </li>
+                        <li>
+                            <a class="nav-link" href="#" id="navitem"><i class="fas fa-search ml-2 mt-2"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active dawat-home-slide-1">
+                    <div class="carousel-caption">
+                        <h1 class="animated slideInDown" style="animation-delay:1s">Welcome To</h1>
+                        <p class="animated zoomIn" style="animation-delay:1s">DAWAT CAFE & RESTAURANT</p>
+                        <div class="animated slideInUp" style="animation-delay:1s">
+                            <button>RESERVATION NOW</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item dawat-home-slide-2">
+
+                    <div class="carousel-caption">
+                        <h1 class="animated slideInDown" style="animation-delay:1s">Our Menus</h1>
+                        <p class="animated zoomIn" style="animation-delay:1s">SEE WHAT'S NEW TODAY</p>
+                        <div class="animated slideInUp" style="animation-delay:1s">
+                            <button>TODAYS MENU</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item dawat-home-slide-3">
+                    <div class="carousel-caption">
+                        <h1 class="animated slideInDown" style="animation-delay:1s">Get Ready</h1>
+                        <p class="animated zoomIn" style="animation-delay:1s">TO JOIN WITH US</p>
+                        <div class="animated slideInUp" style="animation-delay:1s">
+                            <button>BOOK A TABLE</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </div>
+    <div id="home-section" class="home-container d-lg-none d-block">
+        <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top d-flex flex-column" id="nav1">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <img src="https://res.cloudinary.com/dx3vswge0/image/upload/v1693463095/main_logo_black_mhkmog.png" class="food-dawat-logo" />
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#home-section" id="mdnavitem">HOME <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#aboutus-section" id="mdnavitem">ABOUT US</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#offer-section" id="mdnavitem">OFFER</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#menus-section" id="mdnavitem">MENU</a>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#team-section" id="mdnavitem">TEAM<span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#blog-section" id="mdnavitem">BLOG</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#gallery-section" id="mdnavitem">GALLERY</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact-section" id="mdnavitem">CONTACT</a>
+                        </li>
+                        <li>
+                            <a class="nav-link" href="#" id="mdnavitem"><i class="fas fa-search ml-2 mt-2"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div id="carouselExampleIndicators4" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators4" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators4" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators4" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active dawat-home-slide-1">
+                    <div class="carousel-caption caption-2">
+                        <h1 class="animated slideInDown" style="animation-delay:1s">Welcome To</h1>
+                        <p class="animated zoomIn" style="animation-delay:1s">DAWAT CAFE & RESTAURANT</p>
+                        <div class="animated slideInUp" style="animation-delay:1s">
+                            <button>RESERVATION NOW</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item dawat-home-slide-2">
+                    <div class="carousel-caption caption-2">
+                        <h1 class="animated slideInDown" style="animation-delay:1s">Our Menus</h1>
+                        <p class="animated zoomIn" style="animation-delay:1s">SEE WHAT'S NEW TODAY</p>
+                        <div class="animated slideInUp" style="animation-delay:1s">
+                            <button>TODAYS MENU</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item dawat-home-slide-3">
+                    <div class="carousel-caption caption-2">
+                        <h1 class="animated slideInDown" style="animation-delay:1s">Get Ready</h1>
+                        <p class="animated zoomIn" style="animation-delay:1s">TO JOIN WITH US</p>
+                        <div class="animated slideInUp" style="animation-delay:1s">
+                            <button>BOOK A TABLE</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </div>
+    <div class="dawat-aboutus-container" id="aboutus-section">
+        <div class="container">
+            <div class="row">
+                <div class="d-none d-md-block col-12">
+                    <h1 class="dawat-aboutus-title mt-5 mb-5 text-center">Our Story</h1>
+                    <div class="d-flex flex-row justify-content-center col-12">
+                        <p class="dawat-aboutus-desc-left">
+                            <span class="dawat-aboutus-desc-start">M</span>enc non elit libero Quisque massa porta ut placerat lentesque non diam. Nam convallis porta rhoncus. Maecenas varius eget turpis suscipit porta sapien tinc Mauris tempor libero fringilla orci vivera faucibue fringilla orci vivrra faucibus. Integer ullamcorper erat in: tellus efficitur, quis porta sapien tincidunt. Nunc mattis lectus sed semper semper.
+                        </p>
+                        <p class="dawat-aboutus-desc-right">Quisque sit amet turpis et ipsum elementum facilisis Quisque sed placerat libero Pellentesque nec tellus sollicitudin, sollicitudin ligula non tristique nibh Dones vitae turpis sagittis, cursus nunc ac, aliquet nunc. Donec viverra vel massa at posuere Aliquam et fringilla augue consequat posuere sem, eu ornares viverra veleso massa at posuere. Aliquam et fringilla augue.</p>
+                    </div>
+                    <div class="dawat-aboutus-sign-container col-12">
+                        <img class="dawat-aboutus-sign-img" src="https://res.cloudinary.com/dx3vswge0/image/upload/v1693462981/about_sign_kxyzmf.png" alt="sign" />
+                    </div>
+                </div>
+                <div class="d-block d-md-none col-12">
+                    <h1 class="dawat-aboutus-title col-12 text-center mt-5">Our Story</h1>
+                    <div class="d-flex flex-row justify-content-center col-12">
+                        <p class="md-dawat-aboutus-desc-left">
+                            <span class="dawat-aboutus-desc-start">M</span>enc non elit libero Quisque massa porta ut placerat lentesque non diam. Nam convallis porta rhoncus. Maecenas varius eget turpis suscipit porta sapien tinc Mauris tempor libero fringilla orci vivera faucibue fringilla orci vivrra faucibus. Integer ullamcorper erat in: tellus efficitur, quis porta sapien tincidunt. Nunc mattis lectus sed semper semper.
+                        </p>
+                        <p class="md-dawat-aboutus-desc-right">Quisque sit amet turpis et ipsum elementum facilisis Quisque sed placerat libero Pellentesque nec tellus sollicitudin, sollicitudin ligula non tristique nibh Dones vitae turpis sagittis, cursus nunc ac, aliquet nunc. Donec viverra vel massa at posuere Aliquam et fringilla augue consequat posuere sem, eu ornares viverra veleso massa at posuere. Aliquam et fringilla augue.</p>
+                    </div>
+                    <div class="md-dawat-aboutus-sign-container col-12">
+                        <img class="md-dawat-aboutus-sign-img" src="https://res.cloudinary.com/dx3vswge0/image/upload/v1693462981/about_sign_kxyzmf.png" alt="sign" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="offer-section" class="offer-container">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="d-flex flex-row justify-content-center pt-5 pb-4">
+                                    <div class="d-flex flex-column text-white">
+                                        <h1 class="offer-heading d-none d-md-block">Special Packages</h1>
+                                        <h1 class="md-offer-heading d-md-none d-block">Special Packages</h1>
+                                        <div class="red-separator-container">
+                                            <img src="https://res.cloudinary.com/dx3vswge0/image/upload/v1693462885/red_seperator_nstycj.png" alt="red-separator" />
+                                        </div>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div id="carouselExampleIndicators1" class="carousel slide" data-ride="carousel">
+                                        <ol class="">
+                                            <li data-target="#carouselExampleIndicators1" data-slide-to="0" class="active"></li>
+                                            <li data-target="#carouselExampleIndicators1" data-slide-to="1"></li>
+                                            <li data-target="#carouselExampleIndicators1" data-slide-to="2"></li>
+                                        </ol>
+                                        <div class="carousel-inner">
+                                            <div class="carousel-item active">
+                                                <div class="d-flex flex-row">
+                                                    <img src="https://res.cloudinary.com/dx3vswge0/image/upload/v1693463192/promo_slide_1_zyc9bb.jpg" class="carousel-image" alt="...">
+                                                    <div class="offer-carousel-beside-container ml-auto p-4 d-none d-md-block">
+                                                        <h1>40% off for 9'' -12'' pizza-Wed,Thu,Friday only</h1>
+                                                        <p>Pizza 12 inch + 1 Side Dish+1.5L Coke Bottle Only From 209,000</p>
+                                                        <button>Order Now</button>
+                                                    </div>
+                                                    <div class="md-offer-carousel-beside-container ml-auto p-4 d-md-none d-block">
+                                                        <h1>40% off for 9'' -12'' pizza-Wed,Thu,Friday only</h1>
+                                                        <p>Pizza 12 inch + 1 Side Dish+1.5L Coke Bottle Only From 209,000</p>
+                                                        <button>Order Now</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="carousel-item">
+                                                <div class="d-flex flex-row">
+                                                    <img src="https://res.cloudinary.com/dx3vswge0/image/upload/v1693462862/promo_slide_2_jq8s02.jpg" class="carousel-image" alt="...">
+                                                    <div class="offer-carousel-beside-container ml-auto p-4 d-none d-md-block">
+                                                        <h1>40% off for 9'' -12'' pizza-Wed,Thu,Friday only</h1>
+                                                        <p>Pizza 12 inch + 1 Side Dish+1.5L Coke Bottle Only From 209,000</p>
+                                                        <button>Order Now</button>
+                                                    </div>
+                                                    <div class="md-offer-carousel-beside-container ml-auto p-4 d-md-none d-block">
+                                                        <h1>40% off for 9'' -12'' pizza-Wed,Thu,Friday only</h1>
+                                                        <p>Pizza 12 inch + 1 Side Dish+1.5L Coke Bottle Only From 209,000</p>
+                                                        <button>Order Now</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="carousel-item">
+                                                <div class="d-flex flex-row">
+                                                    <img src="https://res.cloudinary.com/dx3vswge0/image/upload/v1693462874/promo_slide_3_kckamo.jpg" class="carousel-image" alt="...">
+                                                    <div class="offer-carousel-beside-container ml-auto p-4 d-none d-md-block">
+                                                        <h1>40% off for 9'' -12'' pizza-Wed,Thu,Friday only</h1>
+                                                        <p>Pizza 12 inch + 1 Side Dish+1.5L Coke Bottle Only From 209,000</p>
+                                                        <button>Order Now</button>
+                                                    </div>
+                                                    <div class="md-offer-carousel-beside-container ml-auto p-4 d-md-none d-block">
+                                                        <h1>40% off for 9'' -12'' pizza-Wed,Thu,Friday only</h1>
+                                                        <p>Pizza 12 inch + 1 Side Dish+1.5L Coke Bottle Only From 209,000</p>
+                                                        <button>Order Now</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="menus-section" class="dawat-menus-container p-4 mt-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h1 class="dawat-team-title mt-5">Today's Menu</h1>
+                    <div class="red-separator-container">
+                        <img src="https://res.cloudinary.com/dx3vswge0/image/upload/v1693462885/red_seperator_nstycj.png" alt="red-separator" />
+                    </div>
+                </div>
+                <div class="col-12">
+                    <button id="all" class="btn  mr-1 mb-1 menu-btn-active col-5 col-md-3">All</button>
+                    <button id="breakfast" class="btn  mr-1 mb-1 menu-btn-inactive col-5 col-md-3">Breakfast</button>
+                    <button id="lunch" class="btn  mr-1 mb-1 menu-btn-inactive col-5 col-md-3">Lunch</button>
+                    <button id="dinner" class="btn  mr-1 mb-1 menu-btn-inactive col-5 col-md-3">Dinner</button>
+                    <button id="coffee" class="btn  mr-1 mb-1 menu-btn-inactive col-5 col-md-3">Coffee</button>
+                    <button id="snacks" class="btn  mr-1 mb-1 menu-btn-inactive col-5 col-md-3">Snacks</button>
+                </div>
+                <div id="menuAll" class="col-12">
+                    <div class="items-container">
+                        <div class="d-flex flex-row mt-5 mr-5">
+                            <div class="menu-item">
+                                <img class="item-image" src="https://res.cloudinary.com/dx3vswge0/image/upload/v1693463120/menu_2_bssit7.jpg" alt="item1" />
+                            </div>
+                            <div class="">
+                                <h1 class="item-name">Vegetable Pizza</h1>
+                                <div class="ingredients d-flex flex-row">
+                                    <p>-Juice Fruit</p>
+                                    <p>-Chicken</p>
+                                    <p>-Cherry</p>
+                                    <p>-Vegetable</p>
+                                    <p>-Milk</p>
+                                    <p>-Potato</p>
+                                    <p>-Tomato</p>
+                                    <p>-Chilli</p>
+                                    <p>-Sesame</p>
+                                </div>
+                            </div>
+                            <p class="item-amount ml-2">$9.9</p>
+                        </div>
+                        <div class="d-flex flex-row mt-5 mr-5">
+                            <div class="">
+                                <img class="item-image" src="https://res.cloudinary.com/dx3vswge0/image/upload/v1693463130/menu_3_sv33df.jpg" alt="item1" />
+                            </div>
+                            <div class="">
+                                <h1 class="item-name">Cup cake recipes</h1>
+                                <div class="ingredients d-flex flex-row justify-content-between">
+                                    <p>-Juice Fruit</p>
+                                    <p>-Checken</p>
+                                    <p>-Cherry</p>
+                                    <p>-Vegetable</p>
+                                    <p>-Milk</p>
+                                    <p>-Potato</p>
+                                    <p>-Tomato</p>
+                                    <p>-Chilli</p>
+                                    <p>-Sesame</p>
+                                </div>
+                            </div>
+                            <p class="item-amount ml-2">$2</p>
+                        </div>
+                        <div class="d-flex flex-row mt-5 mr-5">
+                            <div>
+                                <img class="item-image" src="https://res.cloudinary.com/dx3vswge0/image/upload/v1693463151/menu_5_nw9uqd.jpg" alt="item1" />
+                            </div>
+                            <div>
+                                <h1 class="item-name">Cup cake recipes</h1>
+                                <div class="ingredients d-flex flex-row justify-content-between">
+                                    <p>-Juice Fruit</p>
+                                    <p>-Checken</p>
+                                    <p>-Cherry</p>
+                                    <p>-Vegetable</p>
+                                    <p>-Milk</p>
+                                    <p>-Potato</p>
+                                    <p>-Tomato</p>
+                                    <p>-Chilli</p>
+                                    <p>-Sesame</p>
+                                </div>
+                            </div>
+                            <p class="item-amount ml-2">$25</p>
+                        </div>
+                        <div class="d-flex flex-row mt-5 mr-5 ">
+                            <div>
+                                <img class="item-image" src="https://res.cloudinary.com/dx3vswge0/image/upload/v1693463180/menu_6_r7kyyo.jpg" alt="item1" />
+                            </div>
+                            <div>
+                                <h1 class="item-name">Cup cake recipes</h1>
+                                <div class="ingredients d-flex flex-row justify-content-between">
+                                    <p>-Juice Fruit</p>
+                                    <p>-Checken</p>
+                                    <p>-Cherry</p>
+                                    <p>-Vegetable</p>
+                                    <p>-Milk</p>
+                                    <p>-Potato</p>
+                                    <p>-Tomato</p>
+                                    <p>-Chilli</p>
+                                    <p>-Sesame</p>
+                                </div>
+                            </div>
+                            <p class="item-amount ml-2">$20</p>
+                        </div>
+                        <div class="d-flex flex-row mt-5 mr-5">
+                            <div>
+                                <img class="item-image" src="https://res.cloudinary.com/dx3vswge0/image/upload/v1693463140/menu_4_eciobi.jpg" alt="item1" />
+                            </div>
+                            <div>
+                                <h1 class="item-name">Cup cake recipes</h1>
+                                <div class="ingredients d-flex flex-row justify-content-between">
+                                    <p>-Juice Fruit</p>
+                                    <p>-Checken</p>
+                                    <p>-Cherry</p>
+                                    <p>-Vegetable</p>
+                                    <p>-Milk</p>
+                                    <p>-Potato</p>
+                                    <p>-Tomato</p>
+                                    <p>-Chilli</p>
+                                    <p>-Sesame</p>
+                                </div>
+                            </div>
+                            <p class="item-amount ml-2">$7</p>
+                        </div>
+                        <div class="d-flex flex-row mt-5 mr-5">
+                            <div>
+                                <img class="item-image" src="https://res.cloudinary.com/dx3vswge0/image/upload/v1693463109/menu_1_b1svhr.jpg" alt="item1" />
+                            </div>
+                            <div>
+                                <h1 class="item-name">Cup cake recipes</h1>
+                                <div class="ingredients d-flex flex-row justify-content-between">
+                                    <p>-Juice Fruit</p>
+                                    <p>-Checken</p>
+                                    <p>-Cherry</p>
+                                    <p>-Vegetable</p>
+                                    <p>-Milk</p>
+                                    <p>-Potato</p>
+                                    <p>-Tomato</p>
+                                    <p>-Chilli</p>
+                                    <p>-Sesame</p>
+                                </div>
+                            </div>
+                            <p class="item-amount ml-2">$15</p>
+                        </div>
+                    </div>
+                </div>
+                <div id="menuBreakfast" class="d-none col-12">
+                    <div class="items-container">
+                        <div class="d-flex flex-row mt-5 mr-5">
+                            <div>
+                                <img class="item-image" src="https://res.cloudinary.com/dx3vswge0/image/upload/v1693463151/menu_5_nw9uqd.jpg" alt="item1" />
+                            </div>
+                            <div>
+                                <h1 class="item-name">Cup cake recipes</h1>
+                                <div class="ingredients d-flex flex-row justify-content-between">
+                                    <p>-Juice Fruit</p>
+                                    <p>-Checken</p>
+                                    <p>-Cherry</p>
+                                    <p>-Vegetable</p>
+                                    <p>-Milk</p>
+                                    <p>-Potato</p>
+                                    <p>-Tomato</p>
+                                    <p>-Chilli</p>
+                                    <p>-Sesame</p>
+                                </div>
+                            </div>
+                            <p class="item-amount ml-2">$30</p>
+                        </div>
+                        <div class="d-flex flex-row mt-5 mr-5 ">
+                            <div>
+                                <img class="item-image" src="https://res.cloudinary.com/dx3vswge0/image/upload/v1693463180/menu_6_r7kyyo.jpg" alt="item1" />
+                            </div>
+                            <div>
+                                <h1 class="item-name">Cup cake recipes</h1>
+                                <div class="ingredients d-flex flex-row justify-content-between">
+                                    <p>-Juice Fruit</p>
+                                    <p>-Checken</p>
+                                    <p>-Cherry</p>
+                                    <p>-Vegetable</p>
+                                    <p>-Milk</p>
+                                    <p>-Potato</p>
+                                    <p>-Tomato</p>
+                                    <p>-Chilli</p>
+                                    <p>-Sesame</p>
+                                </div>
+                            </div>
+                            <p class="item-amount ml-2">$20</p>
+                        </div>
+                        <div class="d-flex flex-row mt-5 mr-5">
+                            <div>
+                                <img class="item-image" src="https://res.cloudinary.com/dx3vswge0/image/upload/v1693463140/menu_4_eciobi.jpg" alt="item1" />
+                            </div>
+                            <div>
+                                <h1 class="item-name">Cup cake recipes</h1>
+                                <div class="ingredients d-flex flex-row justify-content-between">
+                                    <p>-Juice Fruit</p>
+                                    <p>-Checken</p>
+                                    <p>-Cherry</p>
+                                    <p>-Vegetable</p>
+                                    <p>-Milk</p>
+                                    <p>-Potato</p>
+                                    <p>-Tomato</p>
+                                    <p>-Chilli</p>
+                                    <p>-Sesame</p>
+                                </div>
+                            </div>
+                            <p class="item-amount ml-2">$10</p>
+                        </div>
+                        <div class="d-flex flex-row mt-5 mr-5">
+                            <div>
+                                <img class="item-image" src="https://res.cloudinary.com/dx3vswge0/image/upload/v1693463109/menu_1_b1svhr.jpg" alt="item1" />
+                            </div>
+                            <div>
+                                <h1 class="item-name">Cup cake recipes</h1>
+                                <div class="ingredients d-flex flex-row justify-content-between">
+                                    <p>-Juice Fruit</p>
+                                    <p>-Checken</p>
+                                    <p>-Cherry</p>
+                                    <p>-Vegetable</p>
+                                    <p>-Milk</p>
+                                    <p>-Potato</p>
+                                    <p>-Tomato</p>
+                                    <p>-Chilli</p>
+                                    <p>-Sesame</p>
+                                </div>
+                            </div>
+                            <p class="item-amount ml-2">$16</p>
+                        </div>
+                    </div>
+                </div>
+                <div id="menu-lunch" class="d-none col-12">
+                    <div class="items-container">
+                        <div class="d-flex flex-row mt-5 mr-5">
+                            <div>
+                                <img class="item-image" src="https://res.cloudinary.com/dx3vswge0/image/upload/v1693463140/menu_4_eciobi.jpg" alt="item1" />
+                            </div>
+                            <div>
+                                <h1 class="item-name">Cup cake recipes</h1>
+                                <div class="ingredients d-flex flex-row justify-content-between">
+                                    <p>-Juice Fruit</p>
+                                    <p>-Checken</p>
+                                    <p>-Cherry</p>
+                                    <p>-Vegetable</p>
+                                    <p>-Milk</p>
+                                    <p>-Potato</p>
+                                    <p>-Tomato</p>
+                                    <p>-Chilli</p>
+                                    <p>-Sesame</p>
+                                </div>
+                            </div>
+                            <p class="item-amount ml-2">$20</p>
+                        </div>
+                        <div class="d-flex flex-row mt-5 mr-5">
+                            <div>
+                                <img class="item-image" src="https://res.cloudinary.com/dx3vswge0/image/upload/v1693463151/menu_5_nw9uqd.jpg" alt="item1" />
+                            </div>
+                            <div>
+                                <h1 class="item-name">Cup cake recipes</h1>
+                                <div class="ingredients d-flex flex-row justify-content-between">
+                                    <p>-Juice Fruit</p>
+                                    <p>-Checken</p>
+                                    <p>-Cherry</p>
+                                    <p>-Vegetable</p>
+                                    <p>-Milk</p>
+                                    <p>-Potato</p>
+                                    <p>-Tomato</p>
+                                    <p>-Chilli</p>
+                                    <p>-Sesame</p>
+                                </div>
+                            </div>
+                            <p class="item-amount ml-2">$20</p>
+                        </div>
+                    </div>
+                </div>
+                <div id="menu-dinner" class="d-none col-12">
+                    <div class="items-container">
+                        <div class="d-flex flex-row mt-5 mr-5">
+                            <div>
+                                <img class="item-image" src="https://res.cloudinary.com/dx3vswge0/image/upload/v1693463180/menu_6_r7kyyo.jpg" alt="item1" />
+                            </div>
+                            <div>
+                                <h1 class="item-name">Cup cake recipes</h1>
+                                <div class="ingredients d-flex flex-row justify-content-between">
+                                    <p>-Juice Fruit</p>
+                                    <p>-Checken</p>
+                                    <p>-Cherry</p>
+                                    <p>-Vegetable</p>
+                                    <p>-Milk</p>
+                                    <p>-Potato</p>
+                                    <p>-Tomato</p>
+                                    <p>-Chilli</p>
+                                    <p>-Sesame</p>
+                                </div>
+                            </div>
+                            <p class="item-amount ml-2">$120</p>
+                        </div>
+                        <div class="d-flex flex-row mt-5 mr-5">
+                            <div>
+                                <img class="item-image" src="https://res.cloudinary.com/dx3vswge0/image/upload/v1693463109/menu_1_b1svhr.jpg" alt="item1" />
+                            </div>
+                            <div>
+                                <h1 class="item-name">Cup cake recipes</h1>
+                                <div class="ingredients d-flex flex-row justify-content-between">
+                                    <p>-Juice Fruit</p>
+                                    <p>-Checken</p>
+                                    <p>-Cherry</p>
+                                    <p>-Vegetable</p>
+                                    <p>-Milk</p>
+                                    <p>-Potato</p>
+                                    <p>-Tomato</p>
+                                    <p>-Chilli</p>
+                                    <p>-Sesame</p>
+                                </div>
+                            </div>
+                            <p class="item-amount ml-2">$20</p>
+                        </div>
+                    </div>
+                </div>
+                <div id="menu-coffee" class="d-none col-12">
+                    <div class="items-container">
+                        <div class="d-flex flex-row mt-5 mr-5">
+                            <div class="">
+                                <img class="item-image" src="https://res.cloudinary.com/dx3vswge0/image/upload/v1693463140/menu_4_eciobi.jpg" alt="item1" />
+                            </div>
+                            <div class="">
+                                <h1 class="item-name">Cup cake recipes</h1>
+                                <div class="ingredients d-flex flex-row justify-content-between">
+                                    <p>-Juice Fruit</p>
+                                    <p>-Checken</p>
+                                    <p>-Cherry</p>
+                                    <p>-Vegetable</p>
+                                    <p>-Milk</p>
+                                    <p>-Potato</p>
+                                    <p>-Tomato</p>
+                                    <p>-Chilli</p>
+                                    <p>-Sesame</p>
+                                </div>
+                            </div>
+                            <p class="item-amount ml-2">$20</p>
+                        </div>
+                        <div class="d-flex flex-row mt-5 mr-5">
+                            <div class="">
+                                <img class="item-image" src="https://res.cloudinary.com/dx3vswge0/image/upload/v1693463120/menu_2_bssit7.jpg" alt="item1" />
+                            </div>
+                            <div class="">
+                                <h1 class="item-name">Cup cake recipes</h1>
+                                <div class="ingredients d-flex flex-row justify-content-between">
+                                    <p>-Juice Fruit</p>
+                                    <p>-Checken</p>
+                                    <p>-Cherry</p>
+                                    <p>-Vegetable</p>
+                                    <p>-Milk</p>
+                                    <p>-Potato</p>
+                                    <p>-Tomato</p>
+                                    <p>-Chilli</p>
+                                    <p>-Sesame</p>
+                                </div>
+                            </div>
+                            <p class="item-amount ml-2">$20</p>
+                        </div>
+                    </div>
+                </div>
+                <div id="menu-snacks" class="d-none col-12">
+                    <div class="items-container">
+                        <div class="d-flex flex-row mt-5 mr-5">
+                            <div>
+                                <img class="item-image" src="https://res.cloudinary.com/dx3vswge0/image/upload/v1693463151/menu_5_nw9uqd.jpg" alt="item1" />
+                            </div>
+                            <div>
+                                <h1 class="item-name">Cup cake recipes</h1>
+                                <div class="ingredients d-flex flex-row justify-content-between">
+                                    <p>-Juice Fruit</p>
+                                    <p>-Checken</p>
+                                    <p>-Cherry</p>
+                                    <p>-Vegetable</p>
+                                    <p>-Milk</p>
+                                    <p>-Potato</p>
+                                    <p>-Tomato</p>
+                                    <p>-Chilli</p>
+                                    <p>-Sesame</p>
+                                </div>
+                            </div>
+                            <p class="item-amount ml-2">$20</p>
+                        </div>
+                        <div class="d-flex flex-row mt-5 mr-5">
+                            <div>
+                                <img class="item-image" src="https://res.cloudinary.com/dx3vswge0/image/upload/v1693463130/menu_3_sv33df.jpg" alt="item1" />
+                            </div>
+                            <div>
+                                <h1 class="item-name">Cup cake recipes</h1>
+                                <div class="ingredients d-flex flex-row justify-content-between">
+                                    <p>-Juice Fruit</p>
+                                    <p>-Checken</p>
+                                    <p>-Cherry</p>
+                                    <p>-Vegetable</p>
+                                    <p>-Milk</p>
+                                    <p>-Potato</p>
+                                    <p>-Tomato</p>
+                                    <p>-Chilli</p>
+                                    <p>-Sesame</p>
+                                </div>
+                            </div>
+                            <p class="item-amount ml-2">$20</p>
+                        </div>
+                        <div class="d-flex flex-row mt-5 mr-5">
+                            <div>
+                                <img class="item-image" src="https://res.cloudinary.com/dx3vswge0/image/upload/v1693463109/menu_1_b1svhr.jpg" alt="item1" />
+                            </div>
+                            <div>
+                                <h1 class="item-name">Cup cake recipes</h1>
+                                <div class="ingredients d-flex flex-row justify-content-between">
+                                    <p>-Juice Fruit</p>
+                                    <p>-Checken</p>
+                                    <p>-Cherry</p>
+                                    <p>-Vegetable</p>
+                                    <p>-Milk</p>
+                                    <p>-Potato</p>
+                                    <p>-Tomato</p>
+                                    <p>-Chilli</p>
+                                    <p>-Sesame</p>
+                                </div>
+                            </div>
+                            <p class="item-amount ml-2">$20</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="book-a-table-section" class="dawat-table-book-container p-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h1 class="dawat-table-book-title">BOOK A TABLE NOW!</h1>
+                    <button class="dawat-table-book-btn">Book Now</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="team-section" class="p-5 all-chefs-container">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h1 class="dawat-team-title mt-5 text-center">Our Chefs</h1>
+                    <div class="red-separator-container col-12">
+                        <img src="https://res.cloudinary.com/dx3vswge0/image/upload/v1693462885/red_seperator_nstycj.png" alt="red-separator" />
+                    </div>
+                </div>
+                <div class="dawat-chef-container col-12 col-sm-6 col-lg-4 col-xl-3">
+                    <div class="dawat-chef-img-container chef-img1">
+                        <div class="icons-container">
+                            <div class="d-flex flex-column align-items-end">
+                                <i class="fab fa-facebook-f dawat-icon"></i>
+                                <i class="fab fa-twitter dawat-icon"></i>
+                                <i class="fab fa-behance dawat-icon"></i>
+                                <i class="fab fa-instagram dawat-icon"></i>
+                                <i class="fab fa-dribbble dawat-icon"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <h1 class="dawat-chef-name">Mark Angelila</h1>
+                    <p class="dawat-chef-desc">Cras senunc massa quisque temper dolor sit amet</p>
+                </div>
+                <div class="dawat-chef-container col-12 col-sm-6 col-lg-4 col-xl-3">
+                    <div class="dawat-chef-img-container chef-img2">
+                        <div class="d-flex flex-column align-items-end icons-container">
+                            <i class="fab fa-facebook-f dawat-icon"></i>
+                            <i class="fab fa-twitter dawat-icon"></i>
+                            <i class="fab fa-behance dawat-icon"></i>
+                            <i class="fab fa-instagram dawat-icon"></i>
+                            <i class="fab fa-dribbble dawat-icon"></i>
+                        </div>
+                    </div>
+                    <h1 class="dawat-chef-name">Angel Meskat</h1>
+                    <p class="dawat-chef-desc">Cras senunc massa quisque temper dolor sit amet</p>
+                </div>
+                <div class="dawat-chef-container col-12 col-sm-6 col-lg-4 col-xl-3">
+                    <div class="dawat-chef-img-container chef-img3">
+                        <div class="d-flex flex-column align-items-end icons-container">
+                            <i class="fab fa-facebook-f dawat-icon"></i>
+                            <i class="fab fa-twitter dawat-icon"></i>
+                            <i class="fab fa-behance dawat-icon"></i>
+                            <i class="fab fa-instagram dawat-icon"></i>
+                            <i class="fab fa-dribbble dawat-icon"></i>
+                        </div>
+                    </div>
+                    <h1 class="dawat-chef-name">Jon Doe</h1>
+                    <p class="dawat-chef-desc">Cras senunc massa quisque temper dolor sit amet</p>
+                </div>
+                <div class="dawat-chef-container col-12 col-sm-6 col-lg-4 col-xl-3">
+                    <div class="dawat-chef-img-container chef-img4">
+                        <div class="d-flex flex-column align-items-end icons-container">
+                            <i class="fab fa-facebook-f dawat-icon"></i>
+                            <i class="fab fa-twitter dawat-icon"></i>
+                            <i class="fab fa-behance dawat-icon"></i>
+                            <i class="fab fa-instagram dawat-icon"></i>
+                            <i class="fab fa-dribbble dawat-icon"></i>
+                        </div>
+                    </div>
+                    <h1 class="dawat-chef-name">Angel Di Maria</h1>
+                    <p class="dawat-chef-desc">Cras senunc massa quisque temper dolor sit amet</p>
+                </div>
+                <div class="dawat-chef-container col-12 col-sm-6 col-lg-4 col-xl-3">
+                    <div class="dawat-chef-img-container chef-img5">
+                        <div class="d-flex flex-column align-items-end icons-container">
+                            <i class="fab fa-facebook-f dawat-icon"></i>
+                            <i class="fab fa-twitter dawat-icon"></i>
+                            <i class="fab fa-behance dawat-icon"></i>
+                            <i class="fab fa-instagram dawat-icon"></i>
+                            <i class="fab fa-dribbble dawat-icon"></i>
+                        </div>
+                    </div>
+                    <h1 class="dawat-chef-name">Park Ji Sung</h1>
+                    <p class="dawat-chef-desc">Cras senunc massa quisque temper dolor sit amet</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="blog-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="blog-container">
+                        <div class="d-flex flex-row justify-content-center pt-5 pb-4">
+                            <div class="d-flex flex-column text-white">
+                                <h1 class="blog-heading d-none d-md-block">Latest News</h1>
+                                <h1 class="md-blog-heading d-md-none d-block">Latest News</h1>
+                                <div class="red-separator-container">
+                                    <img src="https://res.cloudinary.com/dx3vswge0/image/upload/v1693462885/red_seperator_nstycj.png" alt="red-separator" />
+                                </div>
+                            </div>
+                        </div>
+                        <div id="carouselExampleControls2" class="carousel slide" data-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <div class="d-flex flex-row">
+                                        <div class="d-flex flex-column blog-image-container">
+                                            <img src="https://res.cloudinary.com/dx3vswge0/image/upload/v1693463051/blog-2_hwkmjy.jpg" class="blog-image" alt="...">
+                                            <div class="blog-text-container d-none d-md-block">
+                                                <h1>Restaurent welcome day meetup</h1>
+                                                <div class="d-flex flex-row justify-content-center">
+                                                    <hr class="horizontal-line2">
+                                                </div>
+                                                <p>Lorem ipsum dolaor sit amet, consetur adipisiing elit. Alias itaque desertunt atque ex ad facilis praesentium placeat tenetur.</p>
+                                                <h6>24 February, 2017 . 5 Comments</h6>
+                                            </div>
+                                            <div class="md-blog-text-container d-md-none d-block">
+                                                <h1>Restaurent welcome day meetup</h1>
+                                                <hr class="horizontal-line2">
+                                                <p>Lorem ipsum dolaor sit amet, consetur adipisiing elit. Alias itaque desertunt atque ex ad facilis praesentium placeat tenetur.</p>
+                                                <h6>24 February, 2017 . 5 Comments</h6>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex flex-column blog-image-container">
+                                            <img src="https://res.cloudinary.com/dx3vswge0/image/upload/v1693463073/blog-3_waclvn.jpg" class="blog-image" alt="...">
+                                            <div class="blog-text-container d-none d-md-block">
+                                                <h1>Received first day first reservation</h1>
+                                                <div class="d-flex flex-row justify-content-center">
+                                                    <hr size="30" class="horizontal-line2">
+                                                </div>
+                                                <p>Lorem ipsum dolaor sit amet, consetur adipisiing elit. Alias itaque desertunt atque ex ad facilis praesentium placeat tenetur.</p>
+                                                <h6>24 February, 2017 . 5 Comments</h6>
+                                            </div>
+                                            <div class="md-blog-text-container d-md-none d-block">
+                                                <h1>Received first day first reservation</h1>
+
+                                                <hr size="30" class="horizontal-line2">
+
+                                                <p>Lorem ipsum dolaor sit amet, consetur adipisiing elit. Alias itaque desertunt atque ex ad facilis praesentium placeat tenetur.</p>
+                                                <h6>24 February, 2017 . 5 Comments</h6>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex flex-column blog-image-container">
+                                            <img src="https://res.cloudinary.com/dx3vswge0/image/upload/v1693462994/blog-1_ag9yuz.jpg" class="blog-image" alt="...">
+                                            <div class="blog-text-container d-none d-md-block">
+                                                <h1>How to get your home devivery</h1>
+                                                <div class="d-flex flex-row justify-content-center">
+                                                    <hr class="horizontal-line2">
+                                                </div>
+                                                <p>Lorem ipsum dolaor sit amet, consetur adipisiing elit. Alias itaque desertunt atque ex ad facilis praesentium placeat tenetur.</p>
+                                                <h6>24 February, 2017 . 5 Comments</h6>
+                                            </div>
+                                            <div class="md-blog-text-container d-md-none d-block">
+                                                <h1>How to get your home devivery</h1>
+
+                                                <hr class="horizontal-line2">
+
+                                                <p>Lorem ipsum dolaor sit amet, consetur adipisiing elit. Alias itaque desertunt atque ex ad facilis praesentium placeat tenetur.</p>
+                                                <h6>24 February, 2017 . 5 Comments</h6>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="d-flex flex-row">
+                                        <div class="d-flex flex-column blog-image-container">
+                                            <img src="https://res.cloudinary.com/dx3vswge0/image/upload/v1693463051/blog-2_hwkmjy.jpg" class="blog-image" alt="...">
+                                            <div class="blog-text-container d-none d-md-block">
+                                                <h1>Restaurent welcome day meetup</h1>
+                                                <div class="d-flex flex-row justify-content-center">
+                                                    <hr class="horizontal-line2">
+                                                </div>
+                                                <p>Lorem ipsum dolaor sit amet, consetur adipisiing elit. Alias itaque desertunt atque ex ad facilis praesentium placeat tenetur.</p>
+                                                <h6>24 February, 2017 . 5 Comments</h6>
+                                            </div>
+                                            <div class="md-blog-text-container d-md-none d-block">
+                                                <h1>Restaurent welcome day meetup</h1>
+                                                <div class="d-flex flex-row justify-content-center">
+                                                    <hr class="horizontal-line2">
+                                                </div>
+                                                <p>Lorem ipsum dolaor sit amet, consetur adipisiing elit. Alias itaque desertunt atque ex ad facilis praesentium placeat tenetur.</p>
+                                                <h6>24 February, 2017 . 5 Comments</h6>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex flex-column blog-image-container">
+                                            <img src="https://res.cloudinary.com/dx3vswge0/image/upload/v1693463073/blog-3_waclvn.jpg" class="blog-image" alt="...">
+                                            <div class="blog-text-container d-none d-md-block">
+                                                <h1>Received first day first reservation</h1>
+                                                <div class="d-flex flex-row justify-content-center">
+                                                    <hr size="30" class="horizontal-line2">
+                                                </div>
+                                                <p>Lorem ipsum dolaor sit amet, consetur adipisiing elit. Alias itaque desertunt atque ex ad facilis praesentium placeat tenetur.</p>
+                                                <h6>24 February, 2017 . 5 Comments</h6>
+                                            </div>
+                                            <div class="md-blog-text-container d-md-none d-block">
+                                                <h1>Received first day first reservation</h1>
+                                                <div class="d-flex flex-row justify-content-center">
+                                                    <hr size="30" class="horizontal-line2">
+                                                </div>
+                                                <p>Lorem ipsum dolaor sit amet, consetur adipisiing elit. Alias itaque desertunt atque ex ad facilis praesentium placeat tenetur.</p>
+                                                <h6>24 February, 2017 . 5 Comments</h6>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex flex-column blog-image-container">
+                                            <img src="https://res.cloudinary.com/dx3vswge0/image/upload/v1693462994/blog-1_ag9yuz.jpg" class="blog-image" alt="...">
+                                            <div class="blog-text-container d-none d-md-block">
+                                                <h1>How to get your home devivery</h1>
+                                                <div class="d-flex flex-row justify-content-center">
+                                                    <hr class="horizontal-line2">
+                                                </div>
+                                                <p>Lorem ipsum dolaor sit amet, consetur adipisiing elit. Alias itaque desertunt atque ex ad facilis praesentium placeat tenetur.</p>
+                                                <h6>24 February, 2017 . 5 Comments</h6>
+                                            </div>
+                                            <div class="md-blog-text-container d-md-none d-block">
+                                                <h1>How to get your home devivery</h1>
+                                                <div class="d-flex flex-row justify-content-center">
+                                                    <hr class="horizontal-line2">
+                                                </div>
+                                                <p>Lorem ipsum dolaor sit amet, consetur adipisiing elit. Alias itaque desertunt atque ex ad facilis praesentium placeat tenetur.</p>
+                                                <h6>24 February, 2017 . 5 Comments</h6>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="d-flex flex-row">
+                                        <div class="d-flex flex-column blog-image-container">
+                                            <img src="https://res.cloudinary.com/dx3vswge0/image/upload/v1693463051/blog-2_hwkmjy.jpg" class="blog-image" alt="...">
+                                            <div class="blog-text-container d-none d-md-block">
+                                                <h1>Restaurent welcome day meetup</h1>
+                                                <div class="d-flex flex-row justify-content-center">
+                                                    <hr class="horizontal-line2">
+                                                </div>
+                                                <p>Lorem ipsum dolaor sit amet, consetur adipisiing elit. Alias itaque desertunt atque ex ad facilis praesentium placeat tenetur.</p>
+                                                <h6>24 February, 2017 . 5 Comments</h6>
+                                            </div>
+                                            <div class="md-blog-text-container d-md-none d-block">
+                                                <h1>Restaurent welcome day meetup</h1>
+                                                <div class="d-flex flex-row justify-content-center">
+                                                    <hr class="horizontal-line2">
+                                                </div>
+                                                <p>Lorem ipsum dolaor sit amet, consetur adipisiing elit. Alias itaque desertunt atque ex ad facilis praesentium placeat tenetur.</p>
+                                                <h6>24 February, 2017 . 5 Comments</h6>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex flex-column blog-image-container">
+                                            <img src="https://res.cloudinary.com/dx3vswge0/image/upload/v1693463073/blog-3_waclvn.jpg" class="blog-image" alt="...">
+                                            <div class="blog-text-container d-none d-md-block">
+                                                <h1>Received first day first reservation</h1>
+                                                <div class="d-flex flex-row justify-content-center">
+                                                    <hr size="30" class="horizontal-line2">
+                                                </div>
+                                                <p>Lorem ipsum dolaor sit amet, consetur adipisiing elit. Alias itaque desertunt atque ex ad facilis praesentium placeat tenetur.</p>
+                                                <h6>24 February, 2017 . 5 Comments</h6>
+                                            </div>
+                                            <div class="md-blog-text-container d-md-none d-block">
+                                                <h1>Received first day first reservation</h1>
+                                                <div class="d-flex flex-row justify-content-center">
+                                                    <hr size="30" class="horizontal-line2">
+                                                </div>
+                                                <p>Lorem ipsum dolaor sit amet, consetur adipisiing elit. Alias itaque desertunt atque ex ad facilis praesentium placeat tenetur.</p>
+                                                <h6>24 February, 2017 . 5 Comments</h6>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex flex-column blog-image-container">
+                                            <img src="https://res.cloudinary.com/dx3vswge0/image/upload/v1693462994/blog-1_ag9yuz.jpg" class="blog-image" alt="...">
+                                            <div class="blog-text-container d-none d-md-block">
+                                                <h1>How to get your home devivery</h1>
+                                                <div class="d-flex flex-row justify-content-center">
+                                                    <hr class="horizontal-line2">
+                                                </div>
+                                                <p>Lorem ipsum dolaor sit amet, consetur adipisiing elit. Alias itaque desertunt atque ex ad facilis praesentium placeat tenetur.</p>
+                                                <h6>24 February, 2017 . 5 Comments</h6>
+                                            </div>
+                                            <div class="md-blog-text-container d-md-none d-block">
+                                                <h1>How to get your home devivery</h1>
+                                                <div class="d-flex flex-row justify-content-center">
+                                                    <hr class="horizontal-line2">
+                                                </div>
+                                                <p>Lorem ipsum dolaor sit amet, consetur adipisiing elit. Alias itaque desertunt atque ex ad facilis praesentium placeat tenetur.</p>
+                                                <h6>24 February, 2017 . 5 Comments</h6>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <a class="carousel-control-prev carousel-control-prev1" href="#carouselExampleControls2" role="button" data-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Previous</span>
+                            </a>
+                            <a class="carousel-control-next carousel-control-next1" href="#carouselExampleControls2" role="button" data-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Next</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="gallery-section" class="p-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h1 class="dawat-team-title mt-5">Gallery</h1>
+                    <div class="red-separator-container">
+                        <img src="https://res.cloudinary.com/dx3vswge0/image/upload/v1693462885/red_seperator_nstycj.png" alt="red-separator" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="contact-section" class="dawat-contact-container p-5 mt-5">
+        <div class="container">
+            <div class="row">
+                <div class="text-center col-12">
+                    <img src="https://res.cloudinary.com/dx3vswge0/image/upload/v1693463084/main_logo_ltbust.png" alt="logo-white" />
+                    <p class="dawat-contact-address">20,floor,Queenslad Victoria Building.60 california street california USA</p>
+                    <p class="dawat-contact-mail">hello@dawat.com</p>
+                    <p class="dawat-contact-mail">+88 000 0000 1111</p>
+                    <div class="d-flex flex-row justify-content-center mt-5">
+                        <i class="fab fa-facebook-f dawat-icon"></i>
+                        <i class="fab fa-twitter dawat-icon"></i>
+                        <i class="fab fa-dribbble dawat-icon"></i>
+                        <i class="fab fa-google-plus-g dawat-icon"></i>
+                        <i class="fas fa-dice-two dawat-icon"></i>
+                        <i class="fab fa-pinterest dawat-icon"></i>
+                        <i class="fab fa-skype dawat-icon"></i>
+                    </div>
+                    <hr class="contact-hr" />
+                </div>
+                <div class="d-flex flex-row col-12">
+                    <div class="d-flex flex-row justify-content-start col-5">
+                        <p class="contact-desc">Teams of use</p>
+                        <p class="contact-desc">privacy policy</p>
+                        <p class="contact-desc">Site Map</p>
+                        <p class="contact-desc">Contact</p>
+                    </div>
+                    <div class="col-2">
+
+                    </div>
+
+                    <div class="d-flex flex-row justify-content-end col-5">
+                        <i class="far fa-copyright contact-copyright mt-1 mr-1"></i>
+                        <p class="contact-copyright"> 2017 <span class="contact-desc">Dawat Restaurant</span> All right reserved.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="d-flex flex-row justify-content-end fixed-bottom d-lg-block d-none">
+        <div class="navigator-container">
+            <a href="#home-sectionmd"><i class="fas fa-arrow-up arrow-white"></i></a>
+        </div>
+    </div>
+    <div class="d-flex flex-row justify-content-end fixed-bottom d-lg-none d-block">
+        <div class="navigator-container">
+            <a href="#home-section"><i class="fas fa-arrow-up arrow-white"></i></a>
+        </div>
+    </div>
+</body>
+
+</html>
